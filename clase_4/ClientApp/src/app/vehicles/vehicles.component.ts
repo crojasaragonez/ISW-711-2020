@@ -17,7 +17,7 @@ export class VehiclesComponent {
   }
 
   refresh(){
-    this.http.get<Vehicle[]>(this.baseUrl + 'api/vehicles').subscribe(result => {
+    this.http.get<Vehicle[]>(this.baseUrl + 'api/vehicles', this.headers()).subscribe(result => {
       this.vehicles = result;
       this.vehicle = {
         color: "#000000",
@@ -30,9 +30,15 @@ export class VehiclesComponent {
   }
 
   save() {
-    this.http.post(this.baseUrl + 'api/vehicles', this.vehicle).subscribe(() => {
+    this.http.post(this.baseUrl + 'api/vehicles', this.vehicle, this.headers()).subscribe(() => {
       this.refresh();
     }, error => console.error(error));
+  }
+
+  private headers() {
+    return {
+      headers: { "Authorization": "Bearer " + sessionStorage.getItem("token") }
+    }
   }
 }
 
