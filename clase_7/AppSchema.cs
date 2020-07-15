@@ -1,14 +1,12 @@
-// using GraphQL.Types;
-// using GraphQL.Utilities;
-
-// using GraphQL.Types;
+using GraphQL.Types;
+using GraphQL.Utilities;
 using System;
 
 namespace clase_7
 {
-  class AppSchema// : Schema
+  class AppSchema : Schema
   {
-      public AppSchema()
+      public AppSchema(IServiceProvider provider) : base(provider)
       {
 
       }

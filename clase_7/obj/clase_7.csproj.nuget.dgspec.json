@@ -47,6 +47,14 @@
             "GraphQL.SystemTextJson": {
               "target": "Package",
               "version": "[3.0.0-preview-1648, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
             }
           },
           "imports": [
