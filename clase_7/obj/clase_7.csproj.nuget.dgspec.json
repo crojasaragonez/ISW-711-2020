@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/golabs/src/utn/ISW-711/clase_7/clase_7.csproj": {}
+  },
+  "projects": {
+    "/home/golabs/src/utn/ISW-711/clase_7/clase_7.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/golabs/src/utn/ISW-711/clase_7/clase_7.csproj",
+        "projectName": "clase_7",
+        "projectPath": "/home/golabs/src/utn/ISW-711/clase_7/clase_7.csproj",
+        "packagesPath": "/home/golabs/.nuget/packages/",
+        "outputPath": "/home/golabs/src/utn/ISW-711/clase_7/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/golabs/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[3.0.0-preview-1648, )"
+            },
+            "GraphQL.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.0.0-preview-1648, )"
+            },
+            "GraphQL.SystemTextJson": {
+              "target": "Package",
+              "version": "[3.0.0-preview-1648, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

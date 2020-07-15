@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "8INKsYpr7VFleMBoj+MehJOvK99mFJ56WqPd2W2eqOjtdfrZ2qoE6n3eeUlyrMqpqeT8xto9CMrTsNT7vQyY2Q==",
+  "success": true,
+  "projectFilePath": "/home/golabs/src/utn/ISW-711/clase_7/clase_7.csproj",
+  "expectedPackageFiles": [
+    "/home/golabs/.nuget/packages/graphql/3.0.0-preview-1648/graphql.3.0.0-preview-1648.nupkg.sha512",
+    "/home/golabs/.nuget/packages/graphql-parser/5.1.2/graphql-parser.5.1.2.nupkg.sha512",
+    "/home/golabs/.nuget/packages/graphql.newtonsoftjson/3.0.0-preview-1648/graphql.newtonsoftjson.3.0.0-preview-1648.nupkg.sha512",
+    "/home/golabs/.nuget/packages/graphql.systemtextjson/3.0.0-preview-1648/graphql.systemtextjson.3.0.0-preview-1648.nupkg.sha512",
+    "/home/golabs/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/home/golabs/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/golabs/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "/home/golabs/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/home/golabs/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
+    "/home/golabs/.nuget/packages/system.componentmodel.annotations/4.5.0/system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "/home/golabs/.nuget/packages/system.reactive/4.0.0/system.reactive.4.0.0.nupkg.sha512",
+    "/home/golabs/.nuget/packages/system.reactive.core/4.0.0/system.reactive.core.4.0.0.nupkg.sha512",
+    "/home/golabs/.nuget/packages/system.reactive.linq/4.0.0/system.reactive.linq.4.0.0.nupkg.sha512",
+    "/home/golabs/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
+    "/home/golabs/.nuget/packages/system.runtime.interopservices.windowsruntime/4.3.0/system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
